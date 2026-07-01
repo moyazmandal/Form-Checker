@@ -1,4 +1,4 @@
-
+/* variables */
 const subscribeCheck = document.getElementById("subscribeCheck") ;
 
 const visaCard = document.getElementById("visaCard") ;
@@ -12,6 +12,8 @@ const submitBtn = document.getElementById("submitBtn") ;
 const subscribeOutput = document.getElementById("subscribeOutput") ;
 
 const paymentOutput = document.getElementById("paymentOutput") ;
+
+/*  function call  */
 
 submitBtn.onclick = function(){
     if(subscribeCheck.checked){
